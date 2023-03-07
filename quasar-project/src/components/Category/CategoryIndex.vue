@@ -43,7 +43,7 @@
       </q-card>
     </q-dialog>
 
-    <q-dialog v-model="deleteClient" persistent>
+    <q-dialog v-model="deleteCategory" persistent>
       <q-card>
         <q-card-section class="row items-center">
           <q-avatar icon="delete" color="red" text-color="white" />
@@ -64,7 +64,7 @@ export default {
   name: 'CategoryIndex',
   data() {
     return {
-      deleteCategory:  true,
+      deleteCategory:  false,
       createCategory: false,
       rows: [],
       columns: [
