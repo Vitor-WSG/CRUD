@@ -1,5 +1,5 @@
 import { Readable} from'node:stream'
-
+import fetch from "node-fetch";
 class oneToHundredStream extends Readable{
   index = 1
 
